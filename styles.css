@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bigger-text {
+    color: rgb(244, 244, 244);
+    font-size: 20px; 
+
+}
+
+.xalxi {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+ol {
+  list-style-type: none;
+}
+
+
+.tpcphoto .bigger-text {
+    position: absolute;
+    left: 30%;
+    top: 9rem;
+    transform: translate(-40%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: rgb(26 30 31);
+}
+
+.svg-container {
+        position: absolute; 
+        top: 0px;
+        left: 0px;
+        display: flex;
+        margin: auto;
+    }
+
+.nav-bg {
+    height: 84px;
+    
+}
+
+.teqn {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+
+    height: 464.8px;
+}
+
+.teqn .teqn-text {
+    line-height: 2;
+    font-size: 28px;
+    position: absolute;
+    color: #F4F4F4;
+    margin: 50px;
+
+    
+}
+
+.teqn-text {
+    justify-content: center;
+}
+
+ li:hover a{
+    color: rgb(0, 174, 243, 1);
+}
+
+ul{
+    list-style: none;
+}
+
+ a {
+     color: rgb(0, 174, 243, 1);
+    padding: 5px;
+    display: inline-block;
+}
+
+ ul{
+    display: flex;
+}
+
+ li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+ li:hover a {
+    color: white;
+}
+
+.gaige {
+    margin: 350px 70px;
+}
+
+button {
+    background: 0;
+    border: 0;
+}
+
+/*
+#fadeDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;  Initially fully visible 
+}
+
+.fade-out {
+    opacity: 0;  Fully transparent 
+}
+*/
+
+#fadeDiv {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.kursebi {
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.kursebi-bg {
+    display: flex;
+    background-color: rgb(22, 22, 22);
+    height: auto;
+}
+
+.kursebi-text {
+    color: #DBDBDB;
+    margin: 50px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.border {
+
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    --bg-overlay-color: rgb(22 22 22);
+    --bg-gradient: none;
+    border-color: rgba(85, 85, 85, 1) rgba(85, 85, 85, 1) rgba(85, 85, 85, 1) rgba(85, 85, 85, 1);
+    width: 378.2px;
+    height: 393px;
+    border-style: solid solid solid solid;
+    border-width: 2px 2px 2px 2px;
+
+}
+
+
+
+.Ios-link {
+    margin-top: 50px;
+}
+
+.Ios-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+
+.React-link {
+    margin-top: 50px;
+}
+
+.React-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.React {
+    top: 100px;
+}
+
+.Phyton-link {
+    margin-top: 50px;
+}
+
+.Phyton-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.Cybersecurity-link {
+    margin-top: 50px;
+}
+
+.Cybersecurity-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.Blockchain-link {
+    margin-top: 50px;
+}
+
+.Blockchain-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.DevOps-link {
+    margin-top: 50px;
+}
+
+.DevOps-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.Information-link {
+    margin-top: 50px;
+}
+
+.Information-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.ToT-link {
+    margin-top: 50px;
+}
+
+.ToT-text {
+    color: #f4f4f4;
+    line-height: 2;
+}
+
+.kursebi .React {
+    margin-top: 80px;
+}
+
+.kursebi .Phyton {
+    margin-top: 80px;
+}
+
+.fake-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-out;
+}
+
+.slide {
+
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 32%; 
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.slider-bg {
+    background-color:rgb(43, 43, 43);
+    display: flex;
+    
+
+}
+
+.slider-text {
+    color: #F4F4F4;
+    margin: 50px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #333;
+}
+
+.accordion {
+    border: 0 0 0 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.accordion-item {
+    background-color: rgb(22, 22, 22);
+    color: white; /* Optional: Set text color to white for better readability */
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+
+.accordion-item-content {
+    display: none;
+    background-color: rgb(22, 22, 22);
+    color: white; /* Optional: Set text color to white for better readability */
+    padding: 10px;
+}
+
+.accordion-item-content.active {
+    display: block;
+}
+
+.accordion {
+    color: #F4F4F4;
+    background-color: rgb(22, 22, 22);
+    height: 536px;
+    width: 100%;
+}
+
+.accordion-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+html body {
+    justify-content: center;
+    align-items: center;
+}
+
+.bolo {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    color: #F4F4F4;
+}
+
